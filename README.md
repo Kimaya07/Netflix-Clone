@@ -2,9 +2,9 @@
 
 A full-featured Netflix clone built with React and Vite, utilizing The Movie Database (TMDB) API for real-time movie and TV show data.
 
-## Live Demo
+ <!--## Live Demo
 
-[View Live Site](#) <!-- Add your deployment URL here -->
+[View Live Site](#) <!-- Add your deployment URL here -->-->
 
 ## Features
 
