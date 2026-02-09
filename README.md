@@ -1,111 +1,93 @@
-# 🎬 Netflix Clone
+# Netflix Clone
 
-A modern Netflix clone built with React and Vite, featuring a sleek UI and real movie data from The Movie Database (TMDB) API.
+A full-featured Netflix clone built with React and Vite, utilizing The Movie Database (TMDB) API for real-time movie and TV show data.
 
-## ✨ Features
+## Live Demo
 
-- 🎥 Browse popular, trending, and top-rated movies/TV shows
-- 🔍 Search functionality
-- 📱 Responsive design for all devices
-- 🎨 Netflix-inspired UI with Tailwind CSS
-- ⚡ Fast performance with Vite
+[View Live Site](#) <!-- Add your deployment URL here -->
 
-## 🛠️ Built With
+## Features
 
-- **React** - Frontend framework
-- **Vite** - Build tool
-- **Tailwind CSS** - Styling
-- **TMDB API** - Movie database
+- Browse popular, trending, and top-rated content
+- Search functionality for movies and TV shows
+- Responsive design across all devices
+- Netflix-inspired UI/UX
+- Optimized performance with Vite
 
-## 📋 Prerequisites
+## Tech Stack
 
-Before you begin, ensure you have:
-- Node.js (v14 or higher)
+- React
+- Vite
+- Tailwind CSS
+- TMDB API
+
+## Prerequisites
+
+- Node.js (v14+)
 - npm or yarn
-- TMDB API Key (get it from [themoviedb.org](https://www.themoviedb.org/settings/api))
+- TMDB API Key ([Get one here](https://www.themoviedb.org/settings/api))
 
-## 🚀 Getting Started
+## Installation
 
-### 1. Clone the repository
 ```bash
+# Clone repository
 git clone https://github.com/Kimaya07/Netflix-Clone.git
 cd netflix-clone
-```
 
-### 2. Install dependencies
-```bash
+# Install dependencies
 npm install
-```
 
-### 3. Set up environment variables
-Create a `.env` file in the root directory:
-```
+# Configure environment variables
+# Create .env file in root directory with:
 VITE_API_KEY=your_tmdb_api_key_here
-```
 
-### 4. Run the development server
-```bash
+# Start development server
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+Access the app at `http://localhost:5173`
 
-## 📦 Build for Production
+## Build
 
 ```bash
 npm run build
 ```
 
-The optimized production build will be in the `dist/` folder.
+Production build outputs to `dist/` directory.
 
-## 🌐 Deployment
+## Deployment
 
-You can deploy this project on:
-- **Vercel** - [vercel.com](https://vercel.com)
-- **Netlify** - [netlify.com](https://netlify.com)
-- **GitHub Pages**
+Compatible with Vercel, Netlify, or GitHub Pages. Remember to configure the `VITE_API_KEY` environment variable in your deployment platform settings.
 
-Don't forget to add your `VITE_API_KEY` environment variable in your deployment platform!
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 netflix-clone/
-├── public/          # Static assets
 ├── src/
-│   ├── assets/      # Images, icons
-│   ├── Components/  # React components
-│   ├── Context/     # React context
-│   ├── Pages/       # Page components
-│   ├── api.js       # API configuration
-│   ├── requests.js  # API endpoints
-│   ├── App.jsx      # Main app component
-│   └── main.jsx     # Entry point
-├── .env             # Environment variables (not tracked)
-├── .gitignore       # Git ignore rules
-└── package.json     # Dependencies
+│   ├── Components/    # UI components
+│   ├── Pages/         # Route components
+│   ├── Context/       # State management
+│   ├── api.js         # API configuration
+│   └── requests.js    # API endpoints
+├── public/            # Static assets
+└── .env              # Environment variables (gitignored)
 ```
 
-## 🔐 Environment Variables
+## Environment Variables
 
 | Variable | Description |
 |----------|-------------|
-| `VITE_API_KEY` | Your TMDB API key |
+| `VITE_API_KEY` | TMDB API authentication key |
 
-## 📝 License
+## License
 
-This project is for educational purposes.
+MIT License - Educational purposes
 
-## 👤 Author
+## Author
 
-**Kimaya**
-- GitHub: [@Kimaya07](https://github.com/Kimaya07)
-
-## 🙏 Acknowledgments
-
-- Design inspired by Netflix
-- Movie data provided by [TMDB](https://www.themoviedb.org/)
+**Kimaya Ambekar**  
+GitHub: [@Kimaya07](https://github.com/Kimaya07)
 
 ---
 
-⭐ Star this repo if you found it helpful!
+Built with React • Vite • Tailwind CSS
