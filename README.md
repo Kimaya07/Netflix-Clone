@@ -4,7 +4,7 @@ A full-featured Netflix clone built with React and Vite, utilizing The Movie Dat
 
  <!--## Live Demo
 
-[View Live Site](#) <!-- Add your deployment URL here -->-->
+[View Live Site](#) <!-- Add your deployment URL here -->
 
 ## Features
 
